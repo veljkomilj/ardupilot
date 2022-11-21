@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 '''
 recurse through directory tree rooted at supplied path.  For every elf file found, write out next to it a features.txt

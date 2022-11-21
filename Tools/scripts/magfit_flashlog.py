@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 ''' fit best estimate of magnetometer offsets from ArduCopter flashlog
 using the algorithm from Bill Premerlani

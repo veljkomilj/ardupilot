@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 '''
 convert UART_ORDER in a hwdef.dat into a SERIAL_ORDER
 '''

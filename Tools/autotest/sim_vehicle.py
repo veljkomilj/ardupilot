@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 Framework to start a simulated vehicle and connect it to MAVProxy.
@@ -895,6 +895,9 @@ def start_mavproxy(opts, stuff):
     if old is not None:
         env['PYTHONPATH'] += os.path.pathsep + old
 
+    print("mavproxy command")
+    print(cmd)
+    print(env)
     run_cmd_blocking("Run MavProxy", cmd, env=env)
     progress("MAVProxy exited")
 
